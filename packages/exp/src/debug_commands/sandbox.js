@@ -149,5 +149,5 @@ export default (program: any) => {
 
       const iosBuilder = new IOSBuilder(projectDir, options);
       return iosBuilder.command();
-    });
+    }, true);
 };
